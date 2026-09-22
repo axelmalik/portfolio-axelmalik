@@ -4,6 +4,7 @@ import "./globals.css"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import Providers from "@/components/Providers"
+import { Analytics } from "@vercel/analytics/react"
 
 const fontSans = Plus_Jakarta_Sans({
   subsets: ["latin"],
@@ -69,6 +70,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </Providers>
+        <Analytics />
       </body>
     </html>
   )
