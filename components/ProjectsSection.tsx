@@ -196,18 +196,20 @@ export default function ProjectsSection() {
             ))}
           </div>
         </div>
+      </SlideUp>
 
-        {/* Big Cards Showcase */}
+      {/* Big Cards Showcase */}
         <motion.div layout className="space-y-20 lg:space-y-28">
           <AnimatePresence mode="popLayout">
             {filteredProjects.map((project) => (
               <motion.div
                 key={project.id}
                 layout
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, y: 28 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "0px 0px -50px 0px" }}
                 exit={{ opacity: 0, scale: 0.96 }}
-                transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] }}
+                transition={{ duration: 0.5, ease: [0.16, 1, 0.3, 1] }}
                 className="group rounded-3xl border border-neutral-200/80 dark:border-neutral-800 bg-neutral-50/50 dark:bg-[#0c0d12]/50 overflow-hidden shadow-xs hover:border-neutral-300 dark:hover:border-neutral-700 transition-colors"
               >
                 {/* Image Container with Smooth Zoom */}
@@ -282,7 +284,6 @@ export default function ProjectsSection() {
             ))}
           </AnimatePresence>
         </motion.div>
-      </SlideUp>
     </section>
   )
 }
