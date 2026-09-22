@@ -92,19 +92,19 @@ export default function ResumeModal({ isOpen: controlledIsOpen, onClose: control
                   Muhammad Axel Malik Kestana
                 </h2>
                 <p className="text-xs sm:text-sm font-medium text-neutral-500 dark:text-neutral-400">
-                  Software Engineer &bull; Full-Stack &amp; Mobile Developer
+                  Software Engineer • Full-Stack &amp; Mobile Developer
                 </p>
                 <div className="flex flex-wrap items-center gap-3 text-xs text-neutral-400 pt-1">
                   <span>Banjarbaru, Indonesia</span>
-                  <span>&bull;</span>
+                  <span>•</span>
                   <a href="mailto:axelmalik07@gmail.com" className="hover:underline text-neutral-600 dark:text-neutral-300">
                     axelmalik07@gmail.com
                   </a>
-                  <span>&bull;</span>
+                  <span>•</span>
                   <a href="https://github.com/axelmalik" target="_blank" rel="noreferrer" className="hover:underline text-neutral-600 dark:text-neutral-300">
                     github.com/axelmalik
                   </a>
-                  <span>&bull;</span>
+                  <span>•</span>
                   <a href="https://www.linkedin.com/in/axelmalik/" target="_blank" rel="noreferrer" className="hover:underline text-neutral-600 dark:text-neutral-300">
                     linkedin.com/in/axelmalik
                   </a>
@@ -135,7 +135,7 @@ export default function ResumeModal({ isOpen: controlledIsOpen, onClose: control
                       <span className="text-xs font-medium text-emerald-600 dark:text-emerald-400">Jul 2025 — Present</span>
                     </div>
                     <p className="text-xs font-medium text-neutral-500 dark:text-neutral-400">
-                      Mobile Developer &bull; Contract (On-site)
+                      Mobile Developer • Contract (On-site)
                     </p>
                     <p className="text-xs text-neutral-400 pt-0.5">
                       Developing cross-platform mobile applications utilizing JavaScript, TypeScript, and mobile toolchains. Collaborating on-site on system architectures and intuitive interface engineering.
@@ -150,7 +150,7 @@ export default function ResumeModal({ isOpen: controlledIsOpen, onClose: control
                       <span className="text-xs text-neutral-400">Nov 2024 — Feb 2025</span>
                     </div>
                     <p className="text-xs font-medium text-neutral-500 dark:text-neutral-400">
-                      Software Developer &bull; Internship (On-site &bull; Banjarbaru)
+                      Software Developer • Internship (On-site • Banjarbaru)
                     </p>
                     <p className="text-xs text-neutral-400 pt-0.5">
                       Contributed to mobile application development and full-stack web tools to optimize operational workflows and internal management systems.
@@ -173,7 +173,7 @@ export default function ResumeModal({ isOpen: controlledIsOpen, onClose: control
                       <span className="text-xs text-neutral-400">August 2026 — Present</span>
                     </div>
                     <p className="text-xs text-neutral-500 dark:text-neutral-400">
-                      Bachelor of Information Systems (Sistem Informasi) &bull; Online
+                      Bachelor of Information Systems (Sistem Informasi) • Online
                     </p>
                     <p className="text-xs text-neutral-400">
                       Focus: Enterprise Information Architecture, Relational Databases, and Systems Analysis.

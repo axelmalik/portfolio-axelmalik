@@ -8,14 +8,14 @@ const WORK_EXPERIENCE = [
   {
     period: "Jul 2025 — Present",
     role: "Mobile Developer",
-    organization: "Senja Solutions &bull; Contract (On-site)",
+    organization: "Senja Solutions • Contract (On-site)",
     description:
       "Developing and scaling mobile applications utilizing JavaScript, TypeScript, and modern mobile tooling. Collaborating on client solutions, mobile architectures, and intuitive interface design.",
   },
   {
     period: "Nov 2024 — Feb 2025",
     role: "Software Developer",
-    organization: "PT Antang Gunung Meratus (Baramulti Group) &bull; Internship",
+    organization: "PT Antang Gunung Meratus (Baramulti Group) • Internship",
     description:
       "Contributed to mobile application development and full-stack web solutions in Banjarbaru, Indonesia. Built operational software tools and streamlined internal workflows.",
   },
@@ -25,7 +25,7 @@ const EDUCATION = [
   {
     period: "August 2026 — Present",
     role: "Information Systems (Sistem Informasi)",
-    organization: "Universitas Terbuka &bull; Online",
+    organization: "Universitas Terbuka • Online",
     description:
       "Pursuing an online degree in Information Systems, diving into enterprise architectures, relational databases, systems design, and modern software engineering paradigms.",
   },
